@@ -43,3 +43,14 @@ Ao final, você deverá entregar:
 • Print do pipeline executado no CI/CD da aplicação.
 • O código de backend desenvolvido em Springboot com os testes unitários em ao menos 30% das features.
 • O código front-end desenvolvido em Flutter/Dart com os requisitos descritos na apresentação.
+
+
+
+## Executar o projeto localmente
+
+### API
+
+1. Iniciar o MySQL
+`docker-compose up`
+2. Para acessar o banco, existe uma interface administrativa, acessível em http://localhost:8001
+
