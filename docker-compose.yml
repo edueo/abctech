@@ -10,6 +10,8 @@ services:
       MYSQL_DATABASE: abctech_db
       MYSQL_USER: abctech_user
       MYSQL_PASSWORD: abctech_pass
+    ports:
+      - "33060:3306"
 
   adminer:
     image: adminer
