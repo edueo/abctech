@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: abctech
+      MYSQL_DATABASE: abctech_db
+      MYSQL_USER: abctech_user
+      MYSQL_PASSWORD: abctech_pass
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8001:8080"
