@@ -1,0 +1,14 @@
+GET http://localhost:8080/providers
+Accept: application/json
+
+###
+POST http://localhost:8080/providers
+Content-Type: application/json
+
+{
+  "name": "Prestador 1",
+  "email": "prestadore1@gmail.com",
+  "phone": "12997260806"
+}
+
+###
