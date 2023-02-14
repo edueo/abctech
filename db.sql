@@ -8,3 +8,10 @@ CREATE TABLE `abctech_db`.`provider` (
 ALTER TABLE `abctech_db`.`provider`
     CHANGE COLUMN `id` `id` INT(11) NOT NULL AUTO_INCREMENT ,
     ADD UNIQUE INDEX `id_UNIQUE` (`id` ASC);
+
+
+CREATE TABLE `service` (
+    `id` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `name` varchar(255) NOT NULL,
+    `description` tinytext NOT NULL
+);
